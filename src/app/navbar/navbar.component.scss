@@ -10,22 +10,49 @@
     background-color: #003366;
     z-index: 1000;
   }
-  .navbar .logo {
-    
-    width: 0px;
-  }
-  
-  .navbar .icon{
-    position: relative;
-    background-color: white;
-    left: 150;
+
+  .navbar .navLeft{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
   }
   
   .navbar .logo img {
     height: 90px;
+    margin-left: 20px;   
+  }
+
+  .navbar .thirdLine{
     margin-left: 20px;
-    
+  }
+
+  .navbar .thirdLine .thirdLineBtn{
+    height: 30px;
+    width: 30px;
+    font-size: 19px;
+    color: white;
+    font-weight: 600;
+    background-color: darkcyan;
+    border: 1px;
+    border-radius: 3px;
+    padding-bottom: 3px;
+  }
+  
+  .navbar .thirdLine .thirdLineBtn:hover {
+    background-color: rgb(167, 167, 167);
+    transition: 0.7s;
+    font-size: 15px;
+  }
+
+  .navbar .icon{
+    position: relative;
+    background-color: white;
+    left: 150;
+    align-items: center;
+
   }
 
   .navbar .menu{
@@ -48,6 +75,7 @@
   }
 
   .navbar .menu a:hover{
+    padding-bottom: 3px;
     color: red;
     transition: 0.6s;
   } 
